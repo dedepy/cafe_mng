@@ -4,7 +4,7 @@ from .views import (
     OrderCreateView,
     OrderUpdateView,
     OrderDeleteView,
-    OrderRevenueView,
+    OrderRevenueView
 )
 
 urlpatterns = [
