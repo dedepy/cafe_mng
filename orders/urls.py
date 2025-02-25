@@ -7,6 +7,7 @@ from .views import (
     OrderRevenueView
 )
 
+
 urlpatterns = [
     # Список заказов
     path('', OrderListView.as_view(), name='order_list'),
